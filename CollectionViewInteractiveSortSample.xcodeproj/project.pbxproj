@@ -12,6 +12,8 @@
 		D90D85901D3FB5B600776D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90D858E1D3FB5B600776D97 /* Main.storyboard */; };
 		D90D85921D3FB5B600776D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90D85911D3FB5B600776D97 /* Assets.xcassets */; };
 		D90D85951D3FB5B600776D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90D85931D3FB5B600776D97 /* LaunchScreen.storyboard */; };
+		D9A199A91D3FB66600474C42 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A199A81D3FB66600474C42 /* PhotoCell.swift */; };
+		D9A199AB1D3FB6C800474C42 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A199AA1D3FB6C800474C42 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D90D85911D3FB5B600776D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D90D85941D3FB5B600776D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D90D85961D3FB5B600776D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A199A81D3FB66600474C42 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		D9A199AA1D3FB6C800474C42 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				D90D858A1D3FB5B600776D97 /* AppDelegate.swift */,
+				D9A199A81D3FB66600474C42 /* PhotoCell.swift */,
 				D90D858C1D3FB5B600776D97 /* ViewController.swift */,
+				D9A199AA1D3FB6C800474C42 /* DetailViewController.swift */,
 				D90D858E1D3FB5B600776D97 /* Main.storyboard */,
 				D90D85911D3FB5B600776D97 /* Assets.xcassets */,
 				D90D85931D3FB5B600776D97 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90D858D1D3FB5B600776D97 /* ViewController.swift in Sources */,
+				D9A199A91D3FB66600474C42 /* PhotoCell.swift in Sources */,
 				D90D858B1D3FB5B600776D97 /* AppDelegate.swift in Sources */,
+				D9A199AB1D3FB6C800474C42 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				D90D859B1D3FB5B600776D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

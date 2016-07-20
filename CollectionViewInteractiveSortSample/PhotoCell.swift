@@ -25,7 +25,8 @@ class PhotoCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(longPressed))
+        let longPressGesture = UILongPressGestureRecognizer(target: self,
+                                                            action: #selector(longPressed))
         addGestureRecognizer(longPressGesture)
     }
     

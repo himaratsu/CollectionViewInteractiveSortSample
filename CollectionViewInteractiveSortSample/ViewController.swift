@@ -66,9 +66,9 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
         print("\(sourceIndexPath.row) -> \(destinationIndexPath.row)")
         // update model
-        let targetTiqav = photos[sourceIndexPath.row]
+        let targetPhoto = photos[sourceIndexPath.row]
         photos.remove(at: sourceIndexPath.row)
-        photos.insert(targetTiqav, at: destinationIndexPath.row)
+        photos.insert(targetPhoto, at: destinationIndexPath.row)
     }
 }
 
